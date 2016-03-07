@@ -27,8 +27,6 @@
 	++++Share ++++
 	++++Responsive ++++
 */
-/*-------------Import fonts ---------------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,200,100,400italic,700,900|Muli&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek);
 /*-------------General Style---------------------------------------*/
 html{
 	height:100%;
@@ -677,14 +675,13 @@ header:before {
 }
 .logo-holder {
 	float:left;
-	position:relative;
 	width:90px;
 	z-index:21;
 	top:20px;
 }
 .logo-holder img {
-	width:auto;
-	height:100%;
+	width:100%;
+	height:auto;
 }
 .dynamic-title {
 	display:none;
