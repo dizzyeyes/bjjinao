@@ -4051,3 +4051,6 @@ p {
 	background-position:center;
 }
 }
+p.text{
+    text-indent:2em; 
+}
