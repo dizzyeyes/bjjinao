@@ -11,6 +11,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
+$phone    = $_POST['phone'];
 $comments = $_POST['comments'];
 
 
@@ -38,7 +39,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "dimagalishev@gmail.com";
+$address = "dizzyeyes@163.com";
 
 
 // Configuration option.
@@ -66,7 +67,10 @@ $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
-if(mail($address, $e_subject, $msg, $headers)) {
+$mail = new SaeMail(); 
+$ret = $mail->quickSend( $address  , 'Consult from website' , $msg , $address , '1q1q1q' , 'smtp.163.com' , 25 );
+
+if($ret) {
 
 	// Email has sent successfully, echo a success page.
 
@@ -80,5 +84,6 @@ if(mail($address, $e_subject, $msg, $headers)) {
 } else {
 
 	echo 'ERROR!';
+    var_dump($mail->errno(), $mail->errmsg());
 
 }

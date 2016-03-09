@@ -60,7 +60,7 @@
                 <!-- content-holder  -->
                 <div class="content-holder">
                     <!-- Page title -->
-                    <div class="dynamic-title">Contacts</div>
+                    <div class="dynamic-title">联系我们</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
                     <div class="content">
@@ -73,12 +73,12 @@
                                 <div class="page-title">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h2> Our <strong> Contacts </strong></h2>
+                                            <h2> 联系方式 </h2>
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="contact.php">联系我们</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -93,12 +93,24 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h2 class="section-title">Where to <strong>Find us </strong></h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                        <h2 class="section-title">公司地址</h2>
+                                        <p class="text big"></p>
                                     </div>
                                 </div>
                                 <div class="map-box">
-                                    <div  id="map-canvas"></div>
+                                    <p class="text big">销售部：</p>
+                                    <iframe src="map-xiaoshou.html" width="80%" height="420"> 
+                                    </iframe> 
+                                </div>
+                                <div class="map-box">
+                                    <p class="text big">大兴生产基地：</p>
+                                    <iframe src="map-daxing.html" width="80%" height="420"> 
+                                    </iframe> 
+                                </div>
+                                <div class="map-box">
+                                    <p class="text big">山东生产基地：</p>
+                                    <iframe src="map-xiaoshou.html" width="80%" height="420"> 
+                                    </iframe> 
                                 </div>
                                 <div class="row">
                                     <div class="col-md-8">
@@ -130,10 +142,11 @@
                                             <div id="contact-form">
                                                 <div id="message"></div>
                                                 <form method="post" action="php/contact.php" name="contactform" id="contactform">
-                                                    <input name="name" type="text" id="name"  onClick="this.select()" value="Name" >
+                                                    <input name="name" type="text" id="name"  onClick="this.select()" value="姓名" >
                                                     <input name="email" type="text" id="email" onClick="this.select()" value="E-mail" >            
-                                                    <textarea name="comments"  id="comments" onClick="this.select()" >Message</textarea>  
-                                                    <button type="submit"  id="submit"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>Send Message </span></button>          										           											
+                                                    <input name="phone" type="text" id="phone" onClick="this.select()" value="手机号" >            
+                                                    <textarea name="comments"  id="comments" onClick="this.select()" >留言内容</textarea>  
+                                                    <button type="submit"  id="submit"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>发送留言 </span></button>          										           											
                                                 </form>
                                             </div>
                                         </div>
@@ -188,13 +201,11 @@
         </div>
         <!-- Main end -->
         <!--=============== google map ===============-->
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>  
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
-        <script type="text/javascript" src="js/map.js"></script>
         <script>
             select('nav_bar_contact');
 		</script>
