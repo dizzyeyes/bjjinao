@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -86,7 +86,7 @@
                             <!-- 1 -->
                             <div class="gallery-item  interior houses construction">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/1.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -101,7 +101,7 @@
                             <!-- 3 -->
                             <div class="gallery-item  gallery-item-second  interior">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/1.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -116,7 +116,7 @@
                             <!-- 4 -->
                             <div class="gallery-item  design">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/1.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -131,7 +131,7 @@
                             <!-- 5 -->
                             <div class="gallery-item houses   interior">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/5.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/5.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -146,7 +146,7 @@
                             <!-- 5 -->
                             <div class="gallery-item  houses  design  interior">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/5.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/5.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -161,7 +161,7 @@
                             <!-- 6 -->
                             <div class="gallery-item  design interior  construction">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/zizhi/5.jpg"    alt="">
+                                    <img  src="image/folio/projects/projects-1/5.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -176,7 +176,7 @@
                             <!-- 7 -->
                             <div class="gallery-item    design">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -191,7 +191,7 @@
                             <!-- 8 -->
                             <div class="gallery-item     interior  ">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -206,7 +206,7 @@
                             <!-- 12 -->
                             <div class="gallery-item      interior houses">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -221,7 +221,7 @@
                             <!-- 9 -->
                             <div class="gallery-item   design interior">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -236,7 +236,7 @@
                             <!-- 10 -->
                             <div class="gallery-item    interior houses">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/2.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/2.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -251,7 +251,7 @@
                             <!-- 12 -->
                             <div class="gallery-item      interior  construction">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -266,7 +266,7 @@
                             <!-- 11 -->
                             <div class="gallery-item     construction design">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -281,7 +281,7 @@
                             <!-- 12 -->
                             <div class="gallery-item      interior houses">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -296,7 +296,7 @@
                             <!-- 13 -->
                             <div class="gallery-item   design houses">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -311,7 +311,7 @@
                             <!-- 14 -->
                             <div class="gallery-item     interior">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -326,7 +326,7 @@
                             <!-- 16 -->
                             <div class="gallery-item   design  construction">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">
@@ -341,7 +341,7 @@
                             <!-- 17 -->
                             <div class="gallery-item    construction">
                                 <div class="grid-item-holder">
-                                    <img  src="images/folio/thumbs/1.jpg"    alt="">
+                                    <img  src="image/folio/thumbs/1.jpg"    alt="">
                                     <div class="port-desc-holder">
                                         <div class="port-desc">
                                             <div class="grid-item">

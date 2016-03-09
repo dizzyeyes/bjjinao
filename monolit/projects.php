@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -60,25 +60,25 @@
                 <!-- content-holder  -->
                 <div class="content-holder">
                     <!-- Page title -->
-                    <div class="dynamic-title">Services</div>
+                    <div class="dynamic-title">应用工程</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
                                 <div class="page-title">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h2> Our <strong> Services</strong></h2>
+                                            <h2> 应用工程案例</h2>
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="projects.php">应用工程</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -93,51 +93,31 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h2 class="section-title">What <strong>We  Do </strong></h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                        <h2 class="section-title art1">工程案例介绍</h2>
+                                        <p class="text art1 big">人类所有的防水问题，万宝力都有责任去解决。作为系统防水解决方案的提供者，万宝力将各种金奥专项防水系统成功应用于包括房屋建筑、高速公路、城市道桥、地铁及城市轨道、高速铁路、机场、水利设施等众多领域。特别是在中国人民大会堂及五棵松体育馆等的2008年北京奥运场馆等中国标志性建筑和大量高铁、地铁等国家重大基础设施建设项目中，金奥防水系统优良的应用效果，获得用户及社会各界高度评价。</p>
                                     </div>
                                 </div>
                                 <div class="services-holder">
                                     <!-- 1 -->
-                                    <a class="serv-item" href="#ser1">
+                                    <a class="serv-item" href="#ser1" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/projects-1.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>Interior</h3>
+                                                <h3>重点工程</h3>
                                             </div>
                                         </div>
                                     </a>
                                     <!-- 1 end-->
                                     <!-- 2 -->
-                                    <a class="serv-item" href="#ser2">
+                                    <a class="serv-item" href="#ser2" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/projects-2.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>Construction</h3>
+                                                <h3>主要工程</h3>
                                             </div>
                                         </div>
                                     </a>
                                     <!-- 2 end -->
-                                    <!-- 3 -->
-                                    <a class="serv-item" href="#ser3">
-                                        <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Architecture</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <!-- 3 end -->
-                                    <!-- 4 -->
-                                    <a class="serv-item" href="#ser4">
-                                        <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Visualization</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <!-- 4 end-->
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -145,7 +125,7 @@
                                         <div class="serv-post">
                                             <!-- 1 -->
                                             <div id="ser1" class="serv-details">
-                                                <h3>Interior</h3>
+                                                <h3>重点工程</h3>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                                 <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                                 <ul class="ser-list">
@@ -154,11 +134,14 @@
                                                     <li>Proin eu felis hendrerit</li>
                                                 </ul>
                                                 <span class="price">1200$-5000$</span>
+                                                <div class="custom-link-holder">
+                                                    <a href="projects-1.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-long-arrow-right"></i></a>	
+                                                </div>
                                             </div>
                                             <!-- 1 end --> 
                                             <!-- 2 -->
                                             <div id="ser2" class="serv-details">
-                                                <h3>Construction</h3>
+                                                <h3>主要工程</h3>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                                 <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
@@ -168,34 +151,11 @@
                                                     <li>Proin eu felis hendrerit</li>
                                                 </ul>
                                                 <span class="price">3200$-8800$</span>
+                                                <div class="custom-link-holder">
+                                                    <a href="projects-2.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-long-arrow-right"></i></a>	
+                                                </div>
                                             </div>
                                             <!-- 2 end --> 
-                                            <!-- 3 -->
-                                            <div id="ser3" class="serv-details">
-                                                <h3>Architecture</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                                <ul class="ser-list">
-                                                    <li>Architecture</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">12300$-53000$</span>
-                                            </div>
-                                            <!-- 3 end --> 
-                                            <!-- 4 -->
-                                            <div id="ser4" class="serv-details">
-                                                <h3>Visualization</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">3200$-6500$</span>
-                                            </div>
-                                            <!-- 4 end --> 
                                         </div>
                                         <!-- serv-post end-->
                                     </div>
@@ -254,7 +214,7 @@
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script>
-            select('nav_bar_channel');
+            select('nav_bar_projects');
 		</script>
     </body>
 </html>

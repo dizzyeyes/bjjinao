@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -69,15 +69,15 @@
                             <div class="slideshow-item owl-carousel" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);">
                                 <!-- 1 -->
                                 <div class="item">
-                                    <div class="bg" style="background-image:url(images/bg/1.jpg)"></div>
+                                    <div class="bg" style="background-image:url(image/bg/1.jpg)"></div>
                                 </div>
                                 <!-- 2 -->
                                 <div class="item">
-                                    <div class="bg" style="background-image:url(images/bg/2.jpg)"></div>
+                                    <div class="bg" style="background-image:url(image/bg/2.jpg)"></div>
                                 </div>
                                 <!-- 3 -->
                                 <div class="item">
-                                    <div class="bg" style="background-image:url(images/bg/3.jpg)"></div>
+                                    <div class="bg" style="background-image:url(image/bg/3.jpg)"></div>
                                 </div>
                             </div>
                             <!-- Hero image   end -->
@@ -109,17 +109,17 @@
                                                 <div class="single-slider">
                                                     <!-- 1 -->
                                                     <div class="item">
-                                                        <img src="images/folio/slider/1.jpg" alt="">
+                                                        <img src="image/folio/slider/1.jpg" alt="">
                                                     </div>
                                                     <!-- 1 end-->
                                                     <!-- 2 -->
                                                     <div class="item">
-                                                        <img src="images/folio/slider/2.jpg" alt="">
+                                                        <img src="image/folio/slider/2.jpg" alt="">
                                                     </div>
                                                     <!-- 2 end-->
                                                     <!-- 3 -->                                     	
                                                     <div class="item">
-                                                        <img src="images/folio/slider/3.jpg" alt="">
+                                                        <img src="image/folio/slider/3.jpg" alt="">
                                                     </div>
                                                     <!-- 3 end  -->
                                                 </div>
@@ -143,14 +143,15 @@
                                             <h3 class="art3" >万宝力 = 研发 + 生产 + 防水系统</h3>
                                         </div>
                                         <a class="btn anim-button fl-l" target="_blank"><span>向客户提供“防水工程应用产品体系”服务</span><i class="fa fa-leaf"></i></a>
-                                        <div class="gallery-items  grid-small-pad lightgallery">
+                                    
+                                        <div class="gallery-items  grid-small-pad lightgallery"  style="width:70%">
                                             <!-- 1 -->
-                                            <div class="gallery-item">
+                                            <div class="gallery-item full-width">
                                                 <div class="grid-item-holder">
                                                     <div class="box-item">
-                                                        <a data-src="images/folio/tixi-hr.png" class="popup-image" data-sub-html="万宝力防水体系">
+                                                        <a data-src="image/folio/tixi-hr.png" class="popup-image" data-sub-html="万宝力防水体系">
                                                         <span class="overlay"></span> 
-                                                        <img  src="images/folio/tixi.png"   alt="">
+                                                        <img  src="image/folio/tixi.png"   alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -171,7 +172,7 @@
                         <!-- section number   end -->                                       
                         <!-- parallax image  -->                        
                         <div class="parallax-inner">
-                            <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                             <div class="overlay"></div>
                         </div>
                         <!-- parallax image  end -->  
@@ -249,7 +250,7 @@
                                         <div class="parallax-item left-direction">
                                             <div class="paralax-media">
                                                 <div class="paralax-wrap">
-                                                    <img src="images/folio/thumbs/3.jpg" class="respimg" alt="">
+                                                    <img src="image/folio/thumbs/3.jpg" class="respimg" alt="">
                                                 </div>
                                             </div>
                                             <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
@@ -273,7 +274,7 @@
                                                     <li><a ></a></li>
                                                 </ul>
                                                 <div class="paralax-wrap">  
-                                                    <img src="images/folio/thumbs/4.jpg" class="respimg" alt="">
+                                                    <img src="image/folio/thumbs/4.jpg" class="respimg" alt="">
                                                 </div>
                                             </div>
                                             <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
@@ -295,7 +296,7 @@
                                                     <li><a ></a></li>
                                                 </ul>
                                                 <div class="paralax-wrap">
-                                                    <img src="images/folio/thumbs/5.jpg" class="respimg" alt="">
+                                                    <img src="image/folio/thumbs/5.jpg" class="respimg" alt="">
                                                 </div>
                                             </div>
                                             <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
@@ -319,7 +320,7 @@
                                                     <li><a ></a></li>
                                                 </ul>
                                                 <div class="paralax-wrap">  
-                                                    <img src="images/folio/thumbs/6.jpg" class="respimg" alt="">
+                                                    <img src="image/folio/thumbs/6.jpg" class="respimg" alt="">
                                                 </div>
                                             </div>
                                             <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
@@ -348,7 +349,7 @@
                                 <!-- 5 end-->                                
                                 <!-- custom-link-holder  --> 
                                 <div class="custom-link-holder">
-                                    <a href="service-projects.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看所有施工项目</span><i class="fa fa-long-arrow-right"></i></a>	
+                                    <a href="projects.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看所有施工项目</span><i class="fa fa-long-arrow-right"></i></a>	
                                 </div>
                                 <!-- custom-link-holder  end --> 
                             </div>

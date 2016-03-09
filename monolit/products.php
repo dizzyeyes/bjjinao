@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -66,7 +66,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/8.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/8.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -77,7 +77,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="home.html">网站首页</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
                                                 <li><a href="products.php">产品中心</a></li>
                                             </ul>
                                         </div>
@@ -99,9 +99,9 @@
                                 </div>
                                 <div class="services-holder">
                                     <!-- 1 -->
-                                    <a class="serv-item" href="#ser1">
+                                    <a class="serv-item" href="#ser1" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/products-1.jpg"   alt="">
                                             <div class="ser-title">
                                                 <h3>改性沥青防水卷材系列</h3>
                                             </div>
@@ -109,9 +109,9 @@
                                     </a>
                                     <!-- 1 end-->
                                     <!-- 2 -->
-                                    <a class="serv-item" href="#ser2">
+                                    <a class="serv-item" href="#ser2" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/products-2.jpg"   alt="">
                                             <div class="ser-title">
                                                 <h3>高分子防水材料系列</h3>
                                             </div>
@@ -119,9 +119,9 @@
                                     </a>
                                     <!-- 2 end -->
                                     <!-- 3 -->
-                                    <a class="serv-item" href="#ser3">
+                                    <a class="serv-item" href="#ser3" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/products-3.jpg"   alt="">
                                             <div class="ser-title">
                                                 <h3>防水涂料系列</h3>
                                             </div>
@@ -129,9 +129,9 @@
                                     </a>
                                     <!-- 3 end -->
                                     <!-- 4 -->
-                                    <a class="serv-item" href="#ser4">
+                                    <a class="serv-item" href="#ser4" title="点击查看介绍">
                                         <div class="serv-item-inner">
-                                            <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                            <img  src="image/folio/overview/products-4.jpg"   alt="">
                                             <div class="ser-title">
                                                 <h3>自粘防水卷材系列</h3>
                                             </div>
@@ -274,7 +274,7 @@
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script>
-            select('nav_bar_technic');
+            select('nav_bar_products');
 		</script>
     </body>
 </html>

@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -66,7 +66,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -97,9 +97,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/thumbs/2.jpg" class="popup-image" data-sub-html="alteration in some">
+                                                <a data-src="image/folio/thumbs/2.jpg" class="popup-image" data-sub-html="alteration in some">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/2.jpg"   alt="">
+                                                <img  src="image/folio/thumbs/2.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -109,86 +109,14 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html="majority have">
+                                                <a data-src="image/folio/thumbs/1.jpg" class="popup-image" data-sub-html="majority have">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
+                                                <img  src="image/folio/thumbs/1.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- 2 end-->
-                                    <!-- 3 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html="many variations">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 3 end-->
-                                    <!-- 4 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a href="https://www.youtube.com/watch?v=oDpSPNIozt8" data-poster="images/folio/thumbs/29.jpg"  class="popup-image" data-sub-html="anything embarrassing ">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 4 end-->
-                                    <!-- 5 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html=" repeat predefined">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 5 end-->                            
-                                    <!-- 6 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html="making this">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 6 end-->
-                                    <!-- 7 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html="All the Lorem Ipsum">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 7 end-->
-                                    <!-- 8 -->
-                                    <div class="gallery-item">
-                                        <div class="grid-item-holder">
-                                            <div class="box-item">
-                                                <a data-src="images/folio/thumbs/1.jpg" class="popup-image" data-sub-html="repeat predefined chunks as necessary">
-                                                <span class="overlay"></span> 
-                                                <img  src="images/folio/thumbs/1.jpg"   alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- 8 end-->
                                 </div>
                                 <!-- end gallery items -->               
                                 <div class="custom-inner-holder">
@@ -232,7 +160,7 @@
                                 <div class="col-md-6">
                                     <!-- Footer logo --> 
                                     <div class="footer-item footer-logo">
-                                        <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
+                                        <a href="index.html"><img src="image/footer-logo.png" alt=""></a>
                                         <p>Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations.Client is the soul of the project.  </p>
                                     </div>
                                     <!-- Footer logo end --> 

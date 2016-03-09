@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -66,7 +66,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -77,9 +77,9 @@
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="home.html">网站首页</a></li>
-                                                <li><a href="products.html">产品中心</a></li>
-                                                <li><a href="products-1.html">改性防水卷材系列</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="products.php">产品中心</a></li>
+                                                <li><a href="products-1.php">改性防水卷材系列</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -97,9 +97,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/1.jpg" class="popup-image" data-sub-html="alteration in some">
+                                                <a data-src="image/folio/products/products-1/1.jpg" class="popup-image" data-sub-html="alteration in some">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/1.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/1.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -109,9 +109,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/2.jpg" class="popup-image" data-sub-html="majority have">
+                                                <a data-src="image/folio/products/products-1/2.jpg" class="popup-image" data-sub-html="majority have">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/2.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/2.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -121,9 +121,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/3.jpg" class="popup-image" data-sub-html="many variations">
+                                                <a data-src="image/folio/products/products-1/3.jpg" class="popup-image" data-sub-html="many variations">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/3.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/3.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -133,9 +133,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/4.jpg" class="popup-image" data-sub-html="making this">
+                                                <a data-src="image/folio/products/products-1/4.jpg" class="popup-image" data-sub-html="making this">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/4.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/4.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -145,9 +145,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/5.jpg" class="popup-image" data-sub-html=" repeat predefined">
+                                                <a data-src="image/folio/products/products-1/5.jpg" class="popup-image" data-sub-html=" repeat predefined">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/5.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/5.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -157,9 +157,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/6.jpg" class="popup-image" data-sub-html="making this">
+                                                <a data-src="image/folio/products/products-1/6.jpg" class="popup-image" data-sub-html="making this">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/6.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/6.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -169,9 +169,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/7.jpg" class="popup-image" data-sub-html="All the Lorem Ipsum">
+                                                <a data-src="image/folio/products/products-1/7.jpg" class="popup-image" data-sub-html="All the Lorem Ipsum">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/7.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/7.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -181,9 +181,9 @@
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
                                             <div class="box-item">
-                                                <a data-src="images/folio/products/products-1/8.jpg" class="popup-image" data-sub-html="repeat predefined chunks as necessary">
+                                                <a data-src="image/folio/products/products-1/8.jpg" class="popup-image" data-sub-html="repeat predefined chunks as necessary">
                                                 <span class="overlay"></span> 
-                                                <img  src="images/folio/products/products-1/thumbs/8.jpg"   alt="">
+                                                <img  src="image/folio/products/products-1/thumbs/8.jpg"   alt="">
                                                 </a>
                                             </div>
                                         </div>

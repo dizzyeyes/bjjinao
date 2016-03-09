@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
         <!-- loader -->
@@ -32,7 +32,7 @@
                 <div class="header-inner">
                     <!-- header logo -->
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="image/logo.png" alt=""></a>
                     </div>
                     <!-- header logo end -->
                     <!-- mobile nav button -->
@@ -66,7 +66,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -77,8 +77,8 @@
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="home.html">网站首页</a></li>
-                                                <li><a href="about.html">走进万宝力</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="about.php">走进万宝力</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -103,14 +103,15 @@
                                         </div>
                                         
                                         <a class="btn anim-button fl-l" target="_blank"><span>向客户提供“防水工程应用产品体系”服务</span><i class="fa fa-leaf"></i></a>
-                                        <div class="gallery-items  grid-small-pad lightgallery">
+                                    
+                                        <div class="gallery-items  grid-small-pad lightgallery" style="width:70%">
                                             <!-- 1 -->
-                                            <div class="gallery-item">
+                                            <div class="gallery-item full-width">
                                                 <div class="grid-item-holder">
                                                     <div class="box-item">
-                                                        <a data-src="images/folio/tixi-hr.png" class="popup-image" data-sub-html="万宝力防水体系">
+                                                        <a data-src="image/folio/tixi-hr.png" class="popup-image" data-sub-html="万宝力防水体系">
                                                         <span class="overlay"></span> 
-                                                        <img  src="images/folio/tixi.png"   alt="">
+                                                        <img  src="image/folio/tixi.png"   alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -121,7 +122,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="parallax-box">
-                                            <img src="images/folio/slider/3.jpg" class="respimg" alt="">
+                                            <img src="image/folio/slider/3.jpg" class="respimg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +135,7 @@
                         <div class="sect-subtitle left-align-dec" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);"><span>02</span></div>
 						<!-- parallax image  -->
                         <div class="parallax-inner">
-                            <div class="bg" data-bg="images/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                             <div class="overlay"></div>
                         </div>
 						<!-- parallax image  end -->
@@ -206,8 +207,8 @@
                                         <!-- team -->
                                         <ul class="team-holder">
                                             <?php 
-                                            $cailiao = ["9","工业产品生产许可证-副本","工业产品生产许可证-副本2","材料公司开户许可","税务登记证-副","税务登记证-正","组织机构代码证-副","组织机构代码证-正","著名品牌","诚信A级企业证书","营业执照-副","营业执照-正"];
-                                            $shigong = ["6","安全生产许可正本","工程公司开户许可","税务登记证副本 001","税务登记证正本","组织机构代码","组织机构代码副本","建筑资质副本 001","建筑资质正本","环境管理体系认证0001","生产许可证副1","生产许可证副2","职业健康管理体系0001","营业执照-副","营业执照-正","质量管理体系认证0001"];
+                                            $cailiao = array("9","工业产品生产许可证-副本","工业产品生产许可证-副本2","材料公司开户许可","税务登记证-副","税务登记证-正","组织机构代码证-副","组织机构代码证-正","著名品牌","诚信A级企业证书","营业执照-副","营业执照-正");
+                                            $shigong = array("6","安全生产许可正本","工程公司开户许可","税务登记证副本 001","税务登记证正本","组织机构代码","组织机构代码副本","建筑资质副本 001","建筑资质正本","环境管理体系认证0001","生产许可证副1","生产许可证副2","职业健康管理体系0001","营业执照-副","营业执照-正","质量管理体系认证0001");
                                             ?>
                                             <?
                                             for($item = 1; $item<=$cailiao[0]+$shigong[0];$item++)
@@ -255,9 +256,9 @@
                                                         <div class="team-photo">
                                                             <div class="overlay"></div>
                                                             <ul class="team-social">
-                                                                <li><a href="images/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" title="点击查看大图"> <i class="fa fa-play"></i>    </a></li>                                                           
+                                                                <li><a href="image/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" title="点击查看大图"> <i class="fa fa-play"></i>    </a></li>                                                           
                                                             </ul>
-                                                            <img src="images/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg horizontal_item"> 								
+                                                            <img src="image/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg horizontal_item"> 								
                                                         </div>
                                                         <div class="team-info">
                                                             <h3><a ><?php echo $item.". ";echo $target[$pointer];?></a></h3>
@@ -316,9 +317,9 @@
                                                         <div class="team-photo">
                                                             <div class="overlay"></div>
                                                             <ul class="team-social">
-                                                                <li><a href="images/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
+                                                                <li><a href="image/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
                                                             </ul>
-                                                            <img src="images/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg vertical_item"> 								
+                                                            <img src="image/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg vertical_item"> 								
                                                         </div>
                                                         <div class="team-info">
                                                             <h3><a ><?php echo $item+$count.". ";echo $target[$pointer];?></a></h3>
@@ -343,7 +344,7 @@
                         <div class="sect-subtitle left-align-dec" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);"><span>03</span></div>
 						<!-- parallax image  -->
                         <div class="parallax-inner">
-                            <div class="bg" data-bg="images/bg/10.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="bg" data-bg="image/bg/10.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                             <div class="overlay"></div>
                         </div>
 						<!-- parallax image  end-->
@@ -439,9 +440,9 @@
                                                         <div class="team-photo">
                                                             <div class="overlay"></div>
                                                             <ul class="team-social">
-                                                                <li><a href="images/factory/origin/<?php echo $item;?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
+                                                                <li><a href="image/factory/origin/<?php echo $item;?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
                                                             </ul>
-                                                            <img src="images/factory/small/<?php echo $item;?>.jpg" alt="" class="respimg "> 								
+                                                            <img src="image/factory/small/<?php echo $item;?>.jpg" alt="" class="respimg "> 								
                                                         </div>
                                                         <div class="team-info">
                                                             <h3><a ></a></h3>
