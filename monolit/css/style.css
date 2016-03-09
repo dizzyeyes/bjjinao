@@ -2405,6 +2405,14 @@ article {
 	width:100%;
 	float:left;
 }
+.team-photo img.horizontal_item{
+	width:inherit*30%;
+	height:250px;
+}
+.team-photo img.vertical_item{
+	width:inherit*30%;
+	height:500px;
+}
 .team-box .overlay {
 	opacity:0;
 	z-index:2;
@@ -4053,4 +4061,28 @@ p {
 }
 p.text{
     text-indent:2em; 
+}
+p.big{    
+    font-size:18px;
+}
+p.about-text{    
+    width:90%;
+}
+p.art1, h3.art1, a.art1, h2.art1{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+p.art2, h3.art2, a.art2, h2.art2{
+    font-family: 'FangSong',arial,tahoma,\5b8b\4f53,sans-serif;
+}
+p.art3, h3.art3, a.art3, h2.art3{
+    font-family: 'KaiTi',arial,tahoma,\5b8b\4f53,sans-serif;
+}
+img.detail, img.showup{ 
+    width:10%; 
+}
+a.detail img.showup{
+    visibility:"hidden";
+}
+a.detail:hover  img.showup{
+    visibility:"visible";
 }
