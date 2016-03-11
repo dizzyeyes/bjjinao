@@ -207,48 +207,51 @@
                                         <!-- team -->
                                         <ul class="team-holder">
                                             <?php 
-                                            $cailiao = array("7","材料公司开户许可","税务登记证-副","税务登记证-正","组织机构代码证-副","组织机构代码证-正","著名品牌","诚信A级企业证书","营业执照-副","营业执照-正");
-                                            $shigong = array("4","安全生产许可正本","工程公司开户许可","税务登记证副本 001","税务登记证正本","组织机构代码","建筑资质正本","环境管理体系认证0001","生产许可证副1","生产许可证副2","职业健康管理体系0001","营业执照-副","营业执照-正","质量管理体系认证0001");
+                                            $cailiao1 = array("材料资质","材料公司开户许可","税务登记证-正","组织机构代码证-正","著名品牌","诚信单位（A）级企业");
+                                            $shigong1 = array("施工资质","安全生产许可正本","工程公司开户许可","税务登记证正本","组织机构代码");
+                                            $cailiao2 = array("材料资质","营业执照-正");
+                                            $shigong2 = array("施工资质","建筑资质正本","环境管理体系认证","职业健康管理体系","营业执照-正","质量管理体系认证");
+                                            $array = array($cailiao1,$shigong1,$cailiao2,$shigong2);
                                             ?>
                                             <?
-                                            for($item = 1; $item<=$cailiao[0]+$shigong[0];$item++)
+                                            $tcount=0;
+                                            foreach($array as $listitem)
                                             {
-                                                $pointer = $item;
-                                                $target = $cailiao;
-                                                $title = "材料资质";
-                                                $folder = "cailiao";
-                                                if($item>$cailiao[0]) 
+                                                $count=0;
+                                                foreach($listitem as $item)
                                                 {
-                                                    $pointer = $item - $cailiao[0];
-                                                    $target = $shigong;
-                                                    $title = "施工资质";
-                                                    $folder = "shigong";
-                                                }
-                                                echo "<!-- $item -->";
+                                                    if($count==0) 
+                                                    {
+                                                        $count++;
+                                                        continue;
+                                                    }
+                                                    $tcount++;
+                                                    $folder = $listitem[0];
+                                                echo "<!-- $tcount -->";
                                             ?>
                                                 <li>
                                                     <?php 
-                                                    if($item%6==1){
+                                                    if($tcount%6==1){
                                                     ?>
                                                     <div class="team-box" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);">
                                                     <?php
-                                                    }else if($item%6==2){
+                                                    }else if($tcount%6==2){
                                                     ?>
                                                     <div class="team-box" data-top-bottom="transform: translateY(100px);" data-bottom-top="transform: translateY(-100px);">
                                                     <?php
-                                                    }else if($item%6==3){
+                                                    }else if($tcount%6==3){
                                                     ?>
                                                     <div class="team-box" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);">
                                                     <?php 
-                                                    }else if($item%6==4){
+                                                    }else if($tcount%6==4){
                                                     ?> 
                                                     <div class="team-box" data-top-bottom="transform: translateY(50px);" data-bottom-top="transform: translateY(-50px);">
                                                     <?php 
-                                                    }else if($item%6==5){
+                                                    }else if($tcount%6==5){
                                                     ?> 
                                                     <div class="team-box" data-top-bottom="transform: translateY(-100px);" data-bottom-top="transform: translateY(100px);">
                                                     <?php 
-                                                    }else if($item%6==0){
+                                                    }else if($tcount%6==0){
                                                     ?>
                                                     <div class="team-box" data-top-bottom="transform: translateY(50px);" data-bottom-top="transform: translateY(-50px);">
                                                     <?php 
@@ -256,79 +259,19 @@
                                                         <div class="team-photo">
                                                             <div class="overlay"></div>
                                                             <ul class="team-social">
-                                                                <li><a href="image/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" title="点击查看大图"> <i class="fa fa-play"></i>    </a></li>                                                           
+                                                                <li><a href="image/certificate/origin/<?php echo $folder.'/'.$item?>.jpg" target="_blank" title="点击查看大图"> <i class="fa fa-play"></i>    </a></li>                                                           
                                                             </ul>
-                                                            <img src="image/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg horizontal_item"> 								
+                                                            <img src="image/certificate/thumbs/<?php echo $folder.'/'.$item?>.jpg" alt="" class="respimg "> 								
                                                         </div>
                                                         <div class="team-info">
-                                                            <h3><a ><?php echo $item.". ";echo $target[$pointer];?></a></h3>
-                                                            <h4><?php echo $title;?></h4>
+                                                            <h3><a ><?php echo $tcount.". ";echo $item;?></a></h3>
+                                                            <h4><?php echo $folder;?></h4>
                                                         </div>
                                                     </div>
                                                 </li>
                                             <?php                                             
-                                                echo "<!-- $item end-->";
-                                            }
-                                            ?>
-                                            <?php
-                                            $count = $item-1;
-                                            for($item=1; $item<count($cailiao)+count($shigong)-$shigong[0]-$cailiao[0]-2;$item++)
-                                            {
-                                                $pointer = $item+$cailiao[0];
-                                                $target = $cailiao;
-                                                $title = "材料资质";
-                                                $folder = "cailiao";
-                                                if($item+$cailiao[0]+1>count($cailiao)) 
-                                                {
-                                                    $pointer = $item + $cailiao[0] - (count($cailiao)-1)+$shigong[0];
-                                                    $target = $shigong;
-                                                    $title = "施工资质";
-                                                    $folder = "shigong";
+                                                echo "<!-- $tcount end-->";
                                                 }
-                                                echo "<!-- $item -->";
-                                            ?>
-                                                <li>
-                                                    <?php 
-                                                    if($item%6==1){
-                                                    ?>
-                                                    <div class="team-box" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);">
-                                                    <?php
-                                                    }else if($item%6==2){
-                                                    ?>
-                                                    <div class="team-box" data-top-bottom="transform: translateY(100px);" data-bottom-top="transform: translateY(-100px);">
-                                                    <?php
-                                                    }else if($item%6==3){
-                                                    ?>
-                                                    <div class="team-box" data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);">
-                                                    <?php 
-                                                    }else if($item%6==4){
-                                                    ?> 
-                                                    <div class="team-box" data-top-bottom="transform: translateY(50px);" data-bottom-top="transform: translateY(-50px);">
-                                                    <?php 
-                                                    }else if($item%6==5){
-                                                    ?> 
-                                                    <div class="team-box" data-top-bottom="transform: translateY(-100px);" data-bottom-top="transform: translateY(100px);">
-                                                    <?php 
-                                                    }else if($item%6==0){
-                                                    ?>
-                                                    <div class="team-box" data-top-bottom="transform: translateY(50px);" data-bottom-top="transform: translateY(-50px);">
-                                                    <?php 
-                                                    }?>
-                                                        <div class="team-photo">
-                                                            <div class="overlay"></div>
-                                                            <ul class="team-social">
-                                                                <li><a href="image/certificate/origin/<?php echo $folder.'/'.$pointer?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
-                                                            </ul>
-                                                            <img src="image/certificate/small/<?php echo $folder.'/'.$pointer?>.jpg" alt="" class="respimg vertical_item"> 								
-                                                        </div>
-                                                        <div class="team-info">
-                                                            <h3><a ><?php echo $item+$count.". ";echo $target[$pointer];?></a></h3>
-                                                            <h4><?php echo $title;?></h4>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            <?php                                             
-                                                echo "<!-- $item end-->";
                                             }
                                             ?>
                                         </ul>
