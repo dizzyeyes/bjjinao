@@ -126,14 +126,16 @@
                                             <!-- 1 -->
                                             <div id="ser1" class="serv-details">
                                                 <h3>重点工程</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                                <p class="text">万宝力公司自成立起，承接重大重点工程项目数十起，其中包括：</p>
                                                 <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                <?php                                                 
+                                                $list = array("中南海工程","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","京九铁路","太原卫星发射基地","。。。");
+                                                foreach ($list as $item)
+                                                {
+                                                    echo "<li>".$item."</li>";
+                                                }
+                                                ?>
                                                 </ul>
-                                                <span class="price">1200$-5000$</span>
                                                 <div class="custom-link-holder">
                                                     <a href="projects-1.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-long-arrow-right"></i></a>	
                                                 </div>
@@ -142,15 +144,16 @@
                                             <!-- 2 -->
                                             <div id="ser2" class="serv-details">
                                                 <h3>主要工程</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                                <p></p>
                                                 <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                <?php                                                 
+                                                $list = array("亦庄五环桥","保利垄上","加州水郡","回龙观龙泽苑小区","国美第一城","城际高铁·郴州站","庄维花园1","廊坊富士康","润泽庄园","涵洞","珠江绿洲","运河岸上的院子","通典铭居","金地格林小镇","金隅丽港城","首都机场三号航站楼","黄粱梦粮库","。。。");
+                                                foreach ($list as $item)
+                                                {
+                                                    echo "<li>".$item."</li>";
+                                                }
+                                                ?>
                                                 </ul>
-                                                <span class="price">3200$-8800$</span>
                                                 <div class="custom-link-holder">
                                                     <a href="projects-2.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-long-arrow-right"></i></a>	
                                                 </div>

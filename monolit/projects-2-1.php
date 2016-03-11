@@ -87,7 +87,7 @@
                         $valuelist=array(6,11);
                         $values = array("important","keyproj");
                         $count=$valuelist[1];
-                        $folder = "image/folio/projects/projects-1/thumbs";
+                        $folder = "image/folio/projects/projects-1/thumbs-2-1";
                         for($item = 1; $item <=$count; $item++)
                         {
                             echo "<!-- ".$item." -->";

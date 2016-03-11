@@ -103,7 +103,7 @@
                                         <div class="serv-item-inner">
                                             <img  src="image/folio/overview/products-1.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>改性沥青防水卷材系列</h3>
+                                                <h3>JAW-600 改性沥青防水卷材系统</h3>
                                             </div>
                                         </div>
                                     </a>
@@ -113,7 +113,7 @@
                                         <div class="serv-item-inner">
                                             <img  src="image/folio/overview/products-2.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>高分子防水材料系列</h3>
+                                                <h3>JAW-700 高分子防水材料系统</h3>
                                             </div>
                                         </div>
                                     </a>
@@ -123,7 +123,7 @@
                                         <div class="serv-item-inner">
                                             <img  src="image/folio/overview/products-3.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>防水涂料系列</h3>
+                                                <h3>JAW-800 防水涂料系统</h3>
                                             </div>
                                         </div>
                                     </a>
@@ -133,7 +133,7 @@
                                         <div class="serv-item-inner">
                                             <img  src="image/folio/overview/products-4.jpg"   alt="">
                                             <div class="ser-title">
-                                                <h3>自粘防水卷材系列</h3>
+                                                <h3>JAW-900 自粘防水卷材系统</h3>
                                             </div>
                                         </div>
                                     </a>
@@ -145,17 +145,19 @@
                                         <div class="serv-post">
                                             <!-- 1 -->
                                             <div id="ser1" class="serv-details">
-                                                <h3>改性沥青防水卷材系列</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                                <h3>JAW-600 改性沥青防水卷材系统</h3>
+                                                <p class="text big art2">高聚物改性沥青防水卷材，high polymer modified bituminous waterproof sheet:以合成高分子聚合物改性沥青为涂盖层，纤维织物或纤维毡为胎体，粉状、粒状、片状或薄膜材料为覆面材料制成可卷曲的片状材料。 厚度一般为3mm、4mm、5mm，以沥青基为主体。</p>
                                                 <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                    <li>JAW-610 弹性体（SBS）改性沥青防水卷材</li>
+                                                    <li>JAW-620 塑性体（APP）改性沥青防水卷材</li>
+                                                    <li>JAW-630 道桥用改性沥青防水卷材</li>
+                                                    <li>JAW-640 坡屋面用防水材料 聚合物改性沥青防水垫层</li>
+                                                    <li>JAW-650 种植屋面用耐根穿刺防水卷材 改性沥青类</li>
+                                                    <li>JAW-660 改性沥青聚乙烯胎防水卷材</li>
+                                                    <li>JAW-670 路桥用塑性体（APP）沥青防水卷材</li>
                                                 </ul>
-                                                <span class="price">1200$-5000$</span>                      
                                                 <!-- custom-link-holder  --> 
-                                                <div class="custom-link-holder">
+                                                <div class="custom-link-holder" style="display:none">
                                                     <a href="products-1.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-leaf"></i></a>	
                                                 </div>
                                                 <!-- custom-link-holder  end --> 
@@ -163,18 +165,17 @@
                                             <!-- 1 end --> 
                                             <!-- 2 -->
                                             <div id="ser2" class="serv-details">
-                                                <h3>高分子防水材料系列</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                                <h3>JAW-700 高分子防水材料系统</h3>
+                                                <p class="text big art2">用于防水工程代替易渗漏、寿命短的石油沥青油毡的高分子材料。具有弹塑性或高弹性、耐老化、重量轻、污染性低、防水性能优异、施工简单、冷作业、对基层伸缩或开裂适应性强的特点。包括高分子防水卷材、高分子防水涂料、嵌缝密封材料等。</p>
                                                 <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                    <li>JAW-710 高分子防水材料 第部分：片材</li>
+                                                    <li>JAW-720 种植屋面用耐根穿刺防水卷材 橡胶类（R）</li>
+                                                    <li>JAW-730 种植屋面用耐根穿刺防水卷材 塑料类（P）</li>
+                                                    <li>JAW-740  聚氯乙烯 （PVC）防水卷材</li>
+                                                    <li>JAW-750 塑料排水板</li>
                                                 </ul>
-                                                <span class="price">3200$-8800$</span>                      
                                                 <!-- custom-link-holder  --> 
-                                                <div class="custom-link-holder">
+                                                <div class="custom-link-holder" style="display:none">
                                                     <a href="products-2.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-leaf"></i></a>	
                                                 </div>
                                                 <!-- custom-link-holder  end --> 
@@ -182,17 +183,28 @@
                                             <!-- 2 end --> 
                                             <!-- 3 -->
                                             <div id="ser3" class="serv-details">
-                                                <h3>防水涂料系列</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
+                                                <h3>JAW-800 防水涂料系统</h3>
+                                                <p class="text big art2">防水涂料是指涂料形成的涂膜能够防止雨水或地下水渗漏的一种涂料。防水涂料可按涂料状态和形式分为：乳液型、溶剂型、反应型和改性沥青。</p>
+                                                <p class="text big art2">第一类溶剂型涂料：这类涂料种类繁多，质量也好，但是成本高，安全性差，使用不是很普遍。</p>
+                                                <p class="text big art2">第二类是水乳型及反应型高分子涂料：这类涂料在工艺上很难将各种补强剂、填充剂、高分子弹性体使其均匀分散于胶体中，只能用研磨法加入少量配合剂，反应型聚氨酯为双组分，易变质，成本高。</p>
+                                                <p class="text big art2">第三类塑料型改性沥青：这类产品能抗紫外线，耐高温性好，但断裂延伸性略差。</p>
                                                 <ul class="ser-list">
-                                                    <li>Architecture</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                    <li>JAW-810  环保型聚氨酯防水涂料</li>
+                                                    <li>JAW-820 聚合物水泥（JS）防水涂料</li>
+                                                    <li>JAW-830 水泥基渗透结晶型防水涂料</li>
+                                                    <li>JAW-840 聚合物乳液（丙烯酸）建筑防水涂料</li>
+                                                    <li>JAW-850 水性沥青基防水（氯丁胶）</li>
+                                                    <li>JAW-860 改性沥青防水涂料
+                                                        <ul>
+                                                        <li>JAW-861 溶剂型橡胶沥青防水涂料</li>
+                                                        <li>JAW-862 水乳型SBS 改性沥青防水涂料</li>
+                                                        <li>JAW-863 道桥用聚合物改性沥青防水涂料</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>JAW-870 道桥用聚氨酯防水涂料</li>
                                                 </ul>
-                                                <span class="price">12300$-53000$</span>                      
                                                 <!-- custom-link-holder  --> 
-                                                <div class="custom-link-holder">
+                                                <div class="custom-link-holder" style="display:none">
                                                     <a href="products-3.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-leaf"></i></a>	
                                                 </div>
                                                 <!-- custom-link-holder  end --> 
@@ -200,17 +212,16 @@
                                             <!-- 3 end --> 
                                             <!-- 4 -->
                                             <div id="ser4" class="serv-details">
-                                                <h3>自粘防水卷材系列</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                                <h3>JAW-900 自粘防水卷材系统</h3>
+                                                <p class="text big art2">自粘防水卷材是一种以SBS等合成橡胶、增粘剂及优质道路石油沥青等配制成的自粘橡胶沥青为基料，强韧的高密度聚乙烯膜或铝箔作为上表面材料，可剥离的涂硅隔离膜或涂硅隔离纸为下表面防粘隔离材料制成的防水材料。它是一种极具发展前景的新型防水材料，具有低温柔性、自愈性、及粘结性能好的特点，可常温施工、施工速度快、符合环保要求。</p>
                                                 <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
+                                                <li>JAW-910 自粘聚合物改性沥青防水卷材</li>
+                                                <li>JAW-920 预铺/湿铺防水卷材</li>
+                                                <li>JAW-930 带自粘层防水卷材</li>
+                                                <li>JAW-940 坡屋面用防水材料 自粘聚合物沥青防水垫层</li>
                                                 </ul>
-                                                <span class="price">3200$-6500$</span>                      
                                                 <!-- custom-link-holder  --> 
-                                                <div class="custom-link-holder">
+                                                <div class="custom-link-holder" style="display:none">
                                                     <a href="products-4.php" class="btn anim-button"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>查看详情</span><i class="fa fa-leaf"></i></a>	
                                                 </div>
                                                 <!-- custom-link-holder  end --> 

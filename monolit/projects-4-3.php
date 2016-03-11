@@ -82,12 +82,12 @@
                         <!--=============== portfolio holder ===============-->
                         <div class="gallery-items   three-columns grid-small-pad  mob-pa">
                         <?php 
-                        $namelist=array("","中南海工程-1","中南海工程-2","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","京九铁路","太原卫星发射基地");
+                        $namelist=array("","中南海工程","中南海工程","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","京九铁路","太原卫星发射基地");
                         $scriptlist=array("","中南海工程-1","中南海工程-2","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","固安站 牛驼站 霸州站 新中驿站 新镇站 文安站 君庄站 河间西站 任丘站 肃宁站 饶阳站 达官厅站","太原卫星发射基地");
                         $valuelist=array(6,11);
                         $values = array("important","keyproj");
                         $count=$valuelist[1];
-                        $folder = "image/folio/projects/projects-1/thumbs";
+                        $folder = "image/folio/projects/projects-1/thumbs-4-3";
                         for($item = 1; $item <=$count; $item++)
                         {
                             echo "<!-- ".$item." -->";

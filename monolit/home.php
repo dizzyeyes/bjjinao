@@ -196,28 +196,28 @@
                                             <div class="inline-facts col-md-4 ">
                                                 <div class="milestone-counter">
                                                     <div class="stats animaper">
-                                                        <div class="num" data-content="461" data-num="461">0</div>
+                                                        <div class="num" data-content="70" data-num="70">0</div>
                                                     </div>
                                                 </div>
-                                                <h6>完工项目</h6>
+                                                <h6>完工项目（百）</h6>
                                             </div>
                                             <!-- 3 -->
                                             <div class="inline-facts col-md-4">
                                                 <div class="milestone-counter">
                                                     <div class="stats animaper">
-                                                        <div class="num" data-content="168" data-num="168">0</div>
+                                                        <div class="num" data-content="210" data-num="210">0</div>
                                                     </div>
                                                 </div>
-                                                <h6>供应防水材料（吨）</h6>
+                                                <h6>供应防水材料（平方千米）</h6>
                                             </div>
                                             <!-- 3 -->
                                             <div class="inline-facts col-md-4">
                                                 <div class="milestone-counter">
                                                     <div class="stats animaper">
-                                                        <div class="num" data-content="222" data-num="222">0</div>
+                                                        <div class="num" data-content="345" data-num="345" title="所有项目折合">0</div>
                                                     </div>
                                                 </div>
-                                                <h6>施工经验（小时）</h6>
+                                                <h6>折合施工经验（年）</h6>
                                             </div>
                                         </div>
                                         <!-- facts   end --> 

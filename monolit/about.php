@@ -207,8 +207,8 @@
                                         <!-- team -->
                                         <ul class="team-holder">
                                             <?php 
-                                            $cailiao = array("9","工业产品生产许可证-副本","工业产品生产许可证-副本2","材料公司开户许可","税务登记证-副","税务登记证-正","组织机构代码证-副","组织机构代码证-正","著名品牌","诚信A级企业证书","营业执照-副","营业执照-正");
-                                            $shigong = array("6","安全生产许可正本","工程公司开户许可","税务登记证副本 001","税务登记证正本","组织机构代码","组织机构代码副本","建筑资质副本 001","建筑资质正本","环境管理体系认证0001","生产许可证副1","生产许可证副2","职业健康管理体系0001","营业执照-副","营业执照-正","质量管理体系认证0001");
+                                            $cailiao = array("7","材料公司开户许可","税务登记证-副","税务登记证-正","组织机构代码证-副","组织机构代码证-正","著名品牌","诚信A级企业证书","营业执照-副","营业执照-正");
+                                            $shigong = array("4","安全生产许可正本","工程公司开户许可","税务登记证副本 001","税务登记证正本","组织机构代码","建筑资质正本","环境管理体系认证0001","生产许可证副1","生产许可证副2","职业健康管理体系0001","营业执照-副","营业执照-正","质量管理体系认证0001");
                                             ?>
                                             <?
                                             for($item = 1; $item<=$cailiao[0]+$shigong[0];$item++)
@@ -368,15 +368,14 @@
                                                 <!-- 2 -->
                                                 <div class="item">
                                                     <h3>大兴生产基地</h3>
-                                                    <p>位于北京市大兴区北臧村西韩路。主要生产XXX，日产出XXX吨。</p>
+                                                    <p>位于北京市大兴区北臧村西韩路。</p>
                                                     <a href="http://j.map.baidu.com/BQ0W8" class="text-link" target="_blank">在地图中显示</a>
                                                 </div>
                                                 <!-- 2 end -->													
                                                 <!-- 3 -->
                                                 <div class="item">
                                                     <h3>山东生产基地</h3>
-                                                    <p>位于XXX。主要生产XXX，日产出XXX吨。</p>
-                                                    <a href="#" class="text-link" target="_blank">在地图中显示</a>
+                                                    <p>位于山东省德州市，万宝力拓展业务后，在此扩建此工厂。</p>
                                                 </div>
                                                 <!-- 3 end -->                                               
                                             </div>
@@ -403,12 +402,28 @@
                                         <ul class="team-holder">
                                             
                                             <?php 
-                                            $factory = 15;
+                                            $factoryCount = array(8,12,14);
+                                            $factory = $factoryCount[2];
                                             ?>
                                             <?
                                             for($item = 1; $item<=$factory;$item++)
                                             {
                                                 echo "<!-- $item -->";
+                                                $pointer = $item;
+                                                $folder = "xiaoshou";
+                                                $title = "销售部办公室";
+                                                if($item>$factoryCount[1])
+                                                {
+                                                    $pointer = $item - $factoryCount[1];
+                                                    $folder = "shandong";
+                                                    $title = "山东生产基地厂房";
+                                                }
+                                                else if($item>$factoryCount[0])
+                                                {
+                                                    $pointer = $item - $factoryCount[0];
+                                                    $folder = "daxing";
+                                                    $title = "大兴生产基地厂房车间";
+                                                }
                                             ?>
                                                 <li>
                                                     <?php 
@@ -440,13 +455,13 @@
                                                         <div class="team-photo">
                                                             <div class="overlay"></div>
                                                             <ul class="team-social">
-                                                                <li><a href="image/factory/origin/<?php echo $item;?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
+                                                                <li><a href="image/factory/origin/<?php echo $folder."/".$folder."-".$pointer;?>.jpg" target="_blank" class="detail" title="点击查看大图"> <i class="fa fa-play"></i>  </a></li>                                                           
                                                             </ul>
-                                                            <img src="image/factory/small/<?php echo $item;?>.jpg" alt="" class="respimg "> 								
+                                                            <img src="image/factory/thumbs/<?php echo $folder."-".$pointer;?>.jpg" alt="" class="respimg "> 								
                                                         </div>
                                                         <div class="team-info">
                                                             <h3><a ></a></h3>
-                                                            <h4></h4>
+                                                            <h4><?php echo $title;?></h4>
                                                         </div>
                                                     </div>
                                                 </li>
