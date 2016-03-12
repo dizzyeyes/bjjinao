@@ -41,7 +41,7 @@
                     </div>
                     <!-- mobile nav button end -->
                     
-                    <!-- navigation  -->                    
+                    <!-- navigation  -->
                     <?php 
                         include_once("navbar.html");
                     ?>     
@@ -60,7 +60,7 @@
                 <!-- content-holder  -->
                 <div class="content-holder">
                     <!-- Page title -->
-                    <div class="dynamic-title">Services</div>
+                    <div class="dynamic-title">市场概况</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
                     <div class="content">
@@ -73,12 +73,13 @@
                                 <div class="page-title">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h2> Our <strong> Services</strong></h2>
+                                            <h2>市场概况</h2>
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="creat-list">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="channel-1.php">渠道网络</a></li>
+                                                <li><a href="channel-1.php">市场概况</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -89,122 +90,62 @@
                     <!-- content end -->
                     <!-- content  -->
                     <div class="content">
-                        <section>
+                        <section id="sec1">
+                            <div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);" data-bottom-top="transform: translateY(-200px);"><span></span></div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h2 class="section-title">What <strong>We  Do </strong></h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                                        <h2 class="section-title art1">市场概况</h2>
+                                        <h2 class="section-title art3">防水是个庞大的市场。</h2>
+                                        <p class="text big about-text">2010年全国竣工建筑面积总量大约在76亿平米，按以上比例计算，则新建建筑防水施工面积约25亿平方米。按每平方米平均50元计算（很多工程设计为双层防水），其工程总量在1250亿元。如果加上大量的旧建筑的渗漏维修工程，隧道、桥梁、轨道交通工程，以及在中国南方和东部沿海地区广泛应用的外墙防水工程等，其防水工程的施工总金额会超过1300亿元人民币。这是一个庞大的市场，它的规模真是超出我们的想象。</p>                                        
+                                        <div class="process-box">
+                                            <h2 class="section-title art3">防水是个容易造就富翁的市场。</h2>
+                                            <p class="text big about-text">防水工程项目的纯利一般在8%至18%之间。如按15%计算，则全行业工程施工的纯利接近200亿元人民币。</p>
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="services-holder">
-                                    <!-- 1 -->
-                                    <a class="serv-item" href="#ser1">
-                                        <div class="serv-item-inner">
-                                            <img  src="image/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Interior</h3>
-                                            </div>
+                                    <div class="col-md-4">
+                                        <div class="parallax-box">
+                                            <img src="image/folio/slider/1.jpg" class="respimg" alt="">
                                         </div>
-                                    </a>
-                                    <!-- 1 end-->
-                                    <!-- 2 -->
-                                    <a class="serv-item" href="#ser2">
-                                        <div class="serv-item-inner">
-                                            <img  src="image/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Construction</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <!-- 2 end -->
-                                    <!-- 3 -->
-                                    <a class="serv-item" href="#ser3">
-                                        <div class="serv-item-inner">
-                                            <img  src="image/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Architecture</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <!-- 3 end -->
-                                    <!-- 4 -->
-                                    <a class="serv-item" href="#ser4">
-                                        <div class="serv-item-inner">
-                                            <img  src="image/folio/thumbs/1.jpg"   alt="">
-                                            <div class="ser-title">
-                                                <h3>Visualization</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <!-- 4 end-->
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <!-- serv-post  -->     
-                                        <div class="serv-post">
-                                            <!-- 1 -->
-                                            <div id="ser1" class="serv-details">
-                                                <h3>Interior</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">1200$-5000$</span>
-                                            </div>
-                                            <!-- 1 end --> 
-                                            <!-- 2 -->
-                                            <div id="ser2" class="serv-details">
-                                                <h3>Construction</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">3200$-8800$</span>
-                                            </div>
-                                            <!-- 2 end --> 
-                                            <!-- 3 -->
-                                            <div id="ser3" class="serv-details">
-                                                <h3>Architecture</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                                                <ul class="ser-list">
-                                                    <li>Architecture</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">12300$-53000$</span>
-                                            </div>
-                                            <!-- 3 end --> 
-                                            <!-- 4 -->
-                                            <div id="ser4" class="serv-details">
-                                                <h3>Visualization</h3>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <p>  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                                <ul class="ser-list">
-                                                    <li>Curabitur mi sem</li>
-                                                    <li>Euismod in velit</li>
-                                                    <li>Proin eu felis hendrerit</li>
-                                                </ul>
-                                                <span class="price">3200$-6500$</span>
-                                            </div>
-                                            <!-- 4 end --> 
-                                        </div>
-                                        <!-- serv-post end-->
                                     </div>
-                                    <div class="col-md-6"></div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     <!-- content end -->
+                    <!-- content-->							
+                    <div class="content dark-bg">
+                        <div class="sect-subtitle left-align-dec" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);"><span></span></div>
+						<!-- parallax image  -->
+                        <div class="parallax-inner">
+                            <div class="bg" data-bg="image/bg/13.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                            <div class="overlay"></div>
+                        </div>
+						<!-- parallax image  end--> 
+                        <section>
+                            <!--  container  --> 
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h2 class="section-title art1">得渠道者得天下</h2>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text art3 big">万宝力本着合作共赢的市场理念，以先进的商业合作模式与您共享资源，互补有无，通过工程渠道与零售渠道两个平台进行紧密合作，共同开发市场。</p>
+                                        <p class="text art3 big">与您相遇建立合作关系只是万里长征迈出的第一步，秉承“做得比客户期待的更多”的服务理念 </p>
+                                        <p class="text art3 big">作为万宝力公司合作者，意味着你将站在万宝力公司的肩膀上参与市场竞争，您的后面有强大的万宝力公司做坚强后盾， </p>
+                                        <p class="text art3 big">让我们成为紧密的合作同盟，一起战斗的兄弟，人生旅程的朋友。 </p>
+                                        <p class="text art3 big">我们的目标是，协助您： </p>
+                                        <p class="text art3 big">实现财富梦想； </p>
+                                        <p class="text art3 big">成就人生理想； </p>
+                                        <p class="text art3 big">创造幸福生活。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  container  end --> 
+                        </section>
+                    </div>
+                    <!-- content  end-->
                     <!-- content footer-->              
                     <?php 
                         include_once("footer.html");

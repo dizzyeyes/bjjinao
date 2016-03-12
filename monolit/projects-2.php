@@ -60,7 +60,7 @@
                 <!-- content-holder  -->
                 <div class="content-holder">
                     <!-- Page title -->
-                    <div class="dynamic-title">Portfolio Full width</div>
+                    <div class="dynamic-title">主要工程</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
                     <!-- filter -->

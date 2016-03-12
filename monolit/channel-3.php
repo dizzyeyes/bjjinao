@@ -41,7 +41,7 @@
                     </div>
                     <!-- mobile nav button end -->
                     
-                    <!-- navigation  -->
+                    <!-- navigation  -->                    
                     <?php 
                         include_once("navbar.html");
                     ?>     
@@ -60,59 +60,95 @@
                 <!-- content-holder  -->
                 <div class="content-holder">
                     <!-- Page title -->
-                    <div class="dynamic-title">重要工程</div>
+                    <div class="dynamic-title">合作平台</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
-                    <!-- filter -->
-                    <div class="content  hor-content    pad-con no-bg-con">
-                        <div class="filter-holder round-filter ver-filter">
-                            <div class="gallery-filters hid-filter">
-                                <a href="#" class="gallery-filter transition2 gallery-filter_active" data-filter="*">全部</a>
-                                <a href="#" class="gallery-filter transition2" data-filter=".important">重要工程</a>
-                                <a href="#" class="gallery-filter transition2" data-filter=".keyproj">重点工程</a>
+                    <div class="content">
+                        <section class="parallax-section">
+                            <div class="parallax-inner">
+                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="overlay"></div>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="filter-button">筛选</div>
-                            <div class="count-folio round-counter">
-                                <div class="num-album"></div>
-                                <div class="all-album"></div>
-                            </div>
-                        </div>
-                        <!-- filter end-->                  
-                        <!--=============== portfolio holder ===============-->
-                        <div class="gallery-items   three-columns grid-small-pad  mob-pa">
-                        <?php 
-                        $namelist=array("","中南海工程-1","中南海工程-2","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","京九铁路","太原卫星发射基地");
-                        $scriptlist=array("","中南海工程-1","中南海工程-2","中南海机要局办公楼","杏林山庄","公安部大楼","中国解放军总医院","五棵松体育馆","奥运媒体村","清华大学","固安站 牛驼站 霸州站 新中驿站 新镇站 文安站 君庄站 河间西站 任丘站 肃宁站 饶阳站 达官厅站","太原卫星发射基地");
-                        $valuelist=array(6,11);
-                        $values = array("important","keyproj");
-                        $count=$valuelist[1];
-                        $folder = "image/folio/projects/projects-1/thumbs-2-1";
-                        for($item = 1; $item <=$count; $item++)
-                        {
-                            echo "<!-- ".$item." -->";
-                        ?>                            
-                            <div class="gallery-item  <?php if($item<=$valuelist[0]) echo $values[0]; else echo $values[1];?>">
-                                <div class="grid-item-holder">
-                                    <img  src="<?php echo $folder.'/'.$namelist[$item].'.jpg'?>"    alt="">
-                                    <div class="port-desc-holder">
-                                        <div class="port-desc">
-                                            <div class="grid-item">
-                                                <h3><a ><?php echo $namelist[$item];?></a></h3>
-                                                <span><?php echo $scriptlist[$item];?></span>
-                                            </div>
+                            <div class="container">
+                                <div class="page-title">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h2> 合作平台</h2>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="creat-list">
+                                                <li><a href="home.php">网站首页</a></li>
+                                                <li><a href="channel-2.php">渠道网络</a></li>
+                                                <li><a href="channel-2.php">合作平台</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
-                        <?php 
-                            echo "<!-- ".$item." end-->";
-                        }
-                        ?>
-                        </div>
-                        <!-- end gallery items -->               
+                            </div>
+                        </section>
                     </div>
                     <!-- content end -->
+                    <!-- content  -->
+                    <div class="content">
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h2 class="section-title art1">合作平台</h2>
+                                    </div>
+                                </div>
+                                <div class="services-holder">
+                                    <!-- 1 -->
+                                    <a class="serv-item" href="#ser1" title="点击查看介绍">
+                                        <div class="serv-item-inner">
+                                            <img  src="image/folio/overview/channel-2-1.jpg"   alt="">
+                                            <div class="ser-title">
+                                                <h3>省、地级市工程代理渠道 </h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- 1 end-->
+                                    <!-- 2 -->
+                                    <a class="serv-item" href="#ser2" title="点击查看介绍">
+                                        <div class="serv-item-inner">
+                                            <img  src="image/folio/overview/channel-2-2.jpg"   alt="">
+                                            <div class="ser-title">
+                                                <h3>建材市场超市零售代理渠道</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- 2 end -->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- serv-post  -->     
+                                        <div class="serv-post">
+                                            <!-- 1 -->
+                                            <div id="ser1" class="serv-details">
+                                                <h3>省、地级市工程代理渠道</h3>
+                                                <p class="text">面向全国各省地级市拥有防水资质，经营证照的行业防水工程施工承包商及防水材料销售商，授权代理万宝力系列防水产品，代表万宝力公司提供品牌推广、技术和售后相关服务。</p>
+                                            </div>
+                                            <!-- 1 end --> 
+                                            <!-- 2 -->
+                                            <div id="ser2" class="serv-details">
+                                                <h3>建材市场超市零售代理渠道</h3>
+                                                <p class="text">面向全国各地建材市场、建材超市店商，授权代理销售万宝力系列防水产品，代表万宝力公司提供品牌宣传、技术和售后相关服务。</p>
+                                            </div>
+                                            <!-- 2 end --> 
+                                        </div>
+                                        <!-- serv-post end-->
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- content end -->
+                    <!-- content footer-->              
+                    <?php 
+                        include_once("footer.html");
+                    ?>        
+                    <!-- content footer end -->
                     <!-- share  -->
                     <div class="share-inner" id="ckepop">
                         <div class="share-container  isShare"  data-share="[]">
@@ -157,7 +193,7 @@
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script>
-            select('nav_bar_projects');
+            select('nav_bar_channel');
 		</script>
     </body>
 </html>
