@@ -107,32 +107,26 @@
                                     <iframe src="map-daxing.html" width="80%" height="420"> 
                                     </iframe> 
                                 </div>
-                                <div class="map-box">
-                                    <p class="text big">山东生产基地：</p>
-                                    <iframe src="map-xiaoshou.html" width="80%" height="420"> 
-                                    </iframe> 
-                                </div>
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="contact-details">
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <h3 class="bold-title">Contact  details : </h3>
+                                                    <h3 class="bold-title">详细地址：</h3>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <h4>Office in New York</h4>
+                                                    <h4>销售部：</h4>
                                                     <ul>
-                                                        <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
-                                                        <li><a href="#">+7(111)123456789</a></li>
-                                                        <li><a href="#">yourmail@domain.com</a></li>
+                                                        <li><a href="http://j.map.baidu.com/LCZW8">北京市丰台区诺德中心4号楼10层</a></li>
+                                                        <li><a href="#">(010)68688866</a></li>
+                                                        <li><a href="#">bjjinao@qq.com</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <h4>Find Us On : </h4>
+                                                    <h4>大兴生产基地: </h4>
                                                     <ul>
-                                                        <li><a href="#">Facebook</a></li>
-                                                        <li><a href="#">Twitter </a></li>
-                                                        <li><a href="#">Instagram</a></li>
+                                                        <li><a href="http://j.map.baidu.com/BQ0W8">北京市大兴区西韩路</a></li>
+                                                        <li><a href="#">(010)68222396</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -142,9 +136,9 @@
                                             <div id="contact-form">
                                                 <div id="message"></div>
                                                 <form method="post" action="php/contact.php" name="contactform" id="contactform">
-                                                    <input name="name" type="text" id="name"  onClick="this.select()" value="姓名" >
-                                                    <input name="email" type="text" id="email" onClick="this.select()" value="E-mail" >            
-                                                    <input name="phone" type="text" id="phone" onClick="this.select()" value="手机号" >            
+                                                    <input name="name" type="text" id="name"  onClick="this.select()" value="您的姓名" >
+                                                    <input name="email" type="text" id="email" onClick="this.select()" value="您的E-mail" >            
+                                                    <input name="phone" type="text" id="phone" onClick="this.select()" value="您的手机号" >            
                                                     <textarea name="comments"  id="comments" onClick="this.select()" >留言内容</textarea>  
                                                     <button type="submit"  id="submit"  data-top-bottom="transform: translateY(-50px);" data-bottom-top="transform: translateY(50px);"><span>发送留言 </span></button>          										           											
                                                 </form>
