@@ -66,7 +66,7 @@
                     <div class="content">
                         <section class="parallax-section">
                             <div class="parallax-inner">
-                                <div class="bg" data-bg="image/bg/1.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+                                <div class="bg" data-bg="image/bg/7.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                                 <div class="overlay"></div>
                             </div>
                             <div class="container">
@@ -280,7 +280,7 @@
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script>
-            select('nav_bar_about');
+            select('nav_bar_channel');
 		</script>
     </body>
 </html>
