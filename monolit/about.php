@@ -213,7 +213,7 @@
                                             $shigong2 = array("施工资质","建筑资质正本","环境管理体系认证","职业健康管理体系","营业执照-正","质量管理体系认证");
                                             $array = array($cailiao1,$shigong1,$cailiao2,$shigong2);
                                             ?>
-                                            <?
+                                            <?php
                                             $tcount=0;
                                             foreach($array as $listitem)
                                             {
@@ -348,7 +348,7 @@
                                             $factoryCount = array(8,12,14);
                                             $factory = $factoryCount[2];
                                             ?>
-                                            <?
+                                            <?php
                                             for($item = 1; $item<=$factory;$item++)
                                             {
                                                 echo "<!-- $item -->";
