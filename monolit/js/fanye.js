@@ -4,8 +4,39 @@ var page_list=3;//表示每页现实几条数据
 var z=data.length;
 var zy= Math.ceil(z/page_list);//总页数
 window.onload=function (){
-    create_pagination(zy);
-    fanye(0);
+    if(z>0)
+    {
+        create_pagination(zy);
+        fanye(0);
+    }
+    else
+    {
+        create_nothing_found_page();
+    }
+}
+function create_nothing_found_page(){    
+    var otbod=document.getElementById('technic-body');
+    var s=otbod.childElementCount;
+    for(i=0;i<s;i++)
+    {
+        otbod.removeChild(otbod.children[0]);
+    }
+    var article = document.createElement('article');
+        
+    var title = document.createElement('h2');
+    title.setAttribute("class","section-title dec-title");
+    var title_span = document.createElement('span');
+    title_span.appendChild(document.createTextNode("查无结果")); 
+    title.appendChild(title_span);
+    var ret = document.createElement('a');
+    var ret_link = document.createElement('p');
+    ret_link.setAttribute("class","art1 big");
+    ret.setAttribute("href","technic.php");
+    ret_link.appendChild(document.createTextNode("点击返回")); 
+    ret.appendChild(ret_link);
+    article.appendChild(title);
+    article.appendChild(ret);
+    otbod.appendChild(article);
 }
 function create_pagination(zy){
     var containers = document.getElementsByClassName("pagination-blog");
