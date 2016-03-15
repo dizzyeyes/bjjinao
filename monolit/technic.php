@@ -128,8 +128,8 @@
                                             <!-- widget -->
                                             <div class="widget">
                                                 <div class="searh-holder">
-                                                    <form action="#" class="searh-inner">
-                                                        <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search..." />
+                                                    <form action="technic.php" class="searh-inner" method="post">
+                                                        <input name="search" id="search" type="text" class="search" placeholder="网站内查找.." value="" />
                                                         <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
                                                     </form>
                                                 </div>
@@ -190,7 +190,38 @@
         <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
+        <?php 
+            $search = isset($_POST['search']) ? $_POST['search'] : '';
+            if($search!="")
+            {
+                ?>
+                <script>
+                    var data=<?php                      
+                        $url='http://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"]; 
+                        $query_url = dirname($url)."/search.php?t=".$search;
+                        echo fectch_url_json($query_url);
+                    ?>
+                </script>
+                <?php
+            }      
+            else
+            {
+        ?>
         <script type="text/javascript" src="data/pages/pages.js"></script>
+        <?php
+            }           
+            
+            function fectch_url_json($url)
+            {
+                $contents1 = file_get_contents($url); 
+                if(preg_match('/^\xEF\xBB\xBF/',$contents1))
+                {
+                    $contents1=substr($contents1,3);
+                }
+              //  $arr1= json_decode($contents1,true);
+                return $contents1;
+            }
+            ?>
         <script type="text/javascript" src="js/fill-tech.js"></script>
         <script type="text/javascript" src="js/fanye.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>

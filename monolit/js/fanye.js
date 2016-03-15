@@ -79,9 +79,8 @@ function create_page(page)
         var box_item = document.createElement('div');
         box_item.setAttribute("class","box-item");
         var img_ajax = document.createElement('a');
-        img_ajax.setAttribute("class","ajax");
-        var actual_page = q+1;
-        var linkto = "technic-single.php?page="+actual_page;
+        img_ajax.setAttribute("class","ajax");        
+        var linkto = "technic-single.php?page="+data[q]['id'];
         img_ajax.setAttribute("href",linkto);
         var img_span = document.createElement('span');
         img_span.setAttribute("class","overlay");
