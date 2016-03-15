@@ -78,7 +78,7 @@
                                         <div class="col-md-6">
                                             <ul class="creat-list">
                                                 <li><a href="home.php">网站首页</a></li>
-                                                <li><a href="technic-1.php">施工工艺</a></li>
+                                                <li><a href="technic.php">施工工艺</a></li>
                                             </ul>
                                         </div>
                                     </div>

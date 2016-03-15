@@ -1,6 +1,6 @@
 
 var current_page=1;//表示页数
-var page_list=4;//表示每页现实几条数据
+var page_list=3;//表示每页现实几条数据
 var z=data.length;
 var zy= Math.ceil(z/page_list);//总页数
 window.onload=function (){
@@ -112,12 +112,12 @@ function create_page(page)
         
         article.appendChild(blog_text);
         
-        if(q==z)
+        otbod.insertBefore(article,otbod.children[otbod.childElementCount-1]);
+        if(q+1==z)
         {
             break;
         }
         q++;
-        otbod.insertBefore(article,otbod.children[otbod.childElementCount-1]);
     }
     btn_to_top = document.getElementsByClassName("to-top")[0];
     btn_to_top.click();

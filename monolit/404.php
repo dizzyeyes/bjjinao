@@ -68,14 +68,14 @@
                         <!-- Hero section   -->
                         <div class="hero-wrap">
                             <!-- Hero image   -->
-                            <div class="bg"  data-bg="image/bg/1.jpg"></div>
+                            <div class="bg"  data-bg="image/bg/15.jpg"></div>
                             <!-- Hero image   end -->
                             <div class="overlay"></div>
                             <!-- Hero text   -->
                             <div class="hero-wrap-item nFound-page-wrap">
 								<span class="nFound-Page">404</span>
                                 <h2>Page not found</h2>
-                                 <a href="index.html" class="hero-link">Back to home page</a> 
+                                 <a href="index.html" class="hero-link">返回主页</a> 
                             </div>
                             <!-- Hero text   end-->
                         </div>
