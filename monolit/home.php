@@ -208,7 +208,7 @@
                                                         <div class="num" data-content="210" data-num="210">0</div>
                                                     </div>
                                                 </div>
-                                                <h6>供应防水材料（平方千米）</h6>
+                                                <h6>供应防水材料（百万平方米）</h6>
                                             </div>
                                             <!-- 3 -->
                                             <div class="inline-facts col-md-4">

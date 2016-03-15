@@ -16,6 +16,11 @@
         <link rel="shortcut icon" href="image/favicon.ico">
     </head>
     <body>
+    <?php
+        $page = $_GET['page'];
+        if($page==undefined||$page==""||$page<=0||$page>20)
+            header('Location: '.'404.php');
+    ?>
         <!-- loader -->
         <div class="loader">
             <div id="movingBallG">
@@ -40,7 +45,6 @@
                         <div class="nav-button vis-m"><span></span><span></span><span></span></div>
                     </div>
                     <!-- mobile nav button end -->
-                    
                     <!-- navigation  -->
                     <?php 
                         include_once("navbar.html");
@@ -63,63 +67,37 @@
                     <div class="dynamic-title">施工工艺</div>
                     <!-- Page title  end--> 
                     <!-- content  -->
-                    <div class="content">
-                        <section class="parallax-section">
-                            <div class="parallax-inner">
-                                <div class="bg" data-bg="image/bg/11.jpg" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
-                                <div class="overlay"></div>
-                            </div>
-                            <div class="container">
-                                <div class="page-title">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h2> 施工工艺</h2>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="creat-list">
-                                                <li><a href="home.php">网站首页</a></li>
-                                                <li><a href="technic-1.php">施工工艺</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <!-- content end -->
-                    <!-- content  -->
-                    <div class="content">
-                        <section>
+                    <div class="content hor-content pad-con no-bg-con">
+                        <section id="sec1">
                             <div class="container">
                                 <div class="row">
                                     <!-- Articels -->
-                                    <div class="col-md-8" id="technic-body">
-                                        <div class="pagination-blog" id="pagination-blog">
-                                            <a href="javascript:fanye(-1);" class="prevposts-link transition"></a>
-                                            <a href="javascript:fanye(1);" class="nextposts-link transition"></a>
-                                        </div>
+                                    <div class="col-md-8">
                                         <article>
-                                            <h2 class="section-title dec-title"><span>Blog Post  <strong> Title</strong></span></h2>
+                                            <h2 class="section-title dec-title" id="tech-title"></h2>
                                             <div class="blog-media">
                                                 <div class="box-item">
-                                                    <a class="ajax" href="blog-single.html" >
+                                                    <a  title="点击图片查看下一页" href="technic-single.php?page=<?php if ($page<20) echo $page+1; else echo 1?>" >
                                                     <span class="overlay"></span>
-                                                    <img src="image/folio/thumbs/1.jpg"  alt="" class="respimg">
+                                                    <img id="tech-image" src=""  alt="" class="respimg">
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="blog-text" id="page">
-                                                <h3><a class="ajax" href="blog-single.html" >Aliquip pertinax <strong>vix ad </strong></a></h3>
-                                                <p>
-                                                    Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. Integer iaculis tellus nulla, quis imperdiet magna venenatis vitae..
-                                                </p>
-                                                <a href="blog-single.html" class="btn"><span>read more </span> <i class="fa fa-long-arrow-right"></i></a>
+                                            <div class="blog-text" id="tech-content">
                                             </div>
                                         </article>
-                                        <div class="pagination-blog" id="pagination-blog">
-                                            <a href="javascript:fanye(-1);" class="prevposts-link transition"></a>
-                                            <a href="javascript:fanye(1);" class="nextposts-link transition"></a>
-                                        </div>
+                                        <ul class="creat-list">
+                                        <?php if($page>1) 
+                                        {?>
+                                            <li><a href="technic-single.php?page=<?php echo $page-1;?>">上一页</a></li>
+                                        <?php
+                                        } 
+                                        if($page<20) 
+                                        {?>
+                                            <li><a href="technic-single.php?page=<?php echo $page+1;?>">下一页</a></li>
+                                        <?php
+                                        }?>
+                                        </ul>
                                     </div>
                                     <!-- Articels end-->
                                     <!-- sidebar -->
@@ -142,8 +120,8 @@
                             </div>
                         </section>
                     </div>
-                    <!-- content  end-->	   
-                    <!-- content footer-->              
+                    <!-- content  end-->	                				
+                    <!-- content footer-->             
                     <?php 
                         include_once("footer.html");
                     ?>        
@@ -188,14 +166,20 @@
         <!-- Main end -->
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
+        <script type="text/javascript" src="data/blogs/blog-<?php echo $page;?>.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/plugins.js"></script>
-        <script type="text/javascript" src="data/pages/pages.js"></script>
         <script type="text/javascript" src="js/fill-tech.js"></script>
-        <script type="text/javascript" src="js/fanye.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script>
             select('nav_bar_technic');
+            
+            var title = document.getElementById("tech-title");
+            title.appendChild(set_title(data.title));
+            var image = document.getElementById("tech-image");
+            image.setAttribute("src",data.img);
+            var container = document.getElementById("tech-content");
+            append_content(container,data.content);
 		</script>
     </body>
 </html>
