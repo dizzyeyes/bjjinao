@@ -106,8 +106,8 @@
                                             <!-- widget -->
                                             <div class="widget">
                                                 <div class="searh-holder">
-                                                    <form action="#" class="searh-inner">
-                                                        <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search..." />
+                                                    <form action="technic.php" class="searh-inner" method="post">
+                                                        <input name="search" id="search" type="text" class="search" placeholder="网站内查找.." value="" />
                                                         <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
                                                     </form>
                                                 </div>
