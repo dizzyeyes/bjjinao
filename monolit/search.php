@@ -13,7 +13,7 @@ header("Content-Type: text/html; charset=UTF-8");
     $itemlist=array();
     foreach($obj as $item)
     {
-        if(strpos($item["title"],$target)||strpos($item["img"],$target)||strpos(encode_json($item['content']),$target))
+        if(strpos($item["title"],$target)!==false||strpos($item["img"],$target)!==false||strpos(encode_json($item['content']),$target)!==false)
         {
             $id = $item["id"]-1;
             array_push($itemlist,$objshort[$id]);
