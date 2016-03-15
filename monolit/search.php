@@ -2,7 +2,7 @@
 header("Content-Type: text/html; charset=UTF-8");
     $target = isset($_GET["t"]) ? $_GET["t"] : ''; 
     if($target=="")
-        return [];
+        return '[]';
     $filename = "./data/pages.json";
     $fshort = "./data/pages-short.json";
     $json_string = file_get_contents($filename);
